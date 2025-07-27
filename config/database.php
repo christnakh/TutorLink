@@ -4,7 +4,6 @@ if (session_status() === PHP_SESSION_NONE) {
     session_start();
 }
 
-// Database configuration for MAMP
 $host = 'localhost:8889';
 $dbname = 'lecon_particuliere';
 $username = 'root';
